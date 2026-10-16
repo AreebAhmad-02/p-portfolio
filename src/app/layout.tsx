@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(portfolio.meta.url),
   title: {
     default: portfolio.meta.title,
-    template: `%s — ${portfolio.personal.name}`,
+    template: `%s | ${portfolio.personal.name}`,
   },
   description: portfolio.meta.description,
   openGraph: {

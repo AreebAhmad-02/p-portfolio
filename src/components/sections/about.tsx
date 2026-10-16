@@ -92,7 +92,7 @@ export function About() {
 
           <Reveal delay={0.2}>
             <p className="mt-8 font-display text-3xl italic text-accent/80">
-              — {about.signature}
+              {about.signature}
             </p>
           </Reveal>
 
