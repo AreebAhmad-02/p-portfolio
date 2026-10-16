@@ -191,92 +191,32 @@
   "skills": {
     "eyebrow": "Toolbox",
     "title": "The stack I *reach for*.",
-    "description": "From fine-tuning multimodal models to the retrieval, agents and infrastructure that put them in front of real users.",
+    "description": "The tools behind the work below, from fine-tuning frameworks to the infrastructure that serves models in production.",
     "marquee": [
       "Python",
       "PyTorch",
       "Hugging Face",
+      "LoRA / QLoRA",
       "LangGraph",
       "LangChain",
+      "LlamaIndex",
       "OpenAI",
       "Claude",
       "Gemini",
       "FastAPI",
       "PostgreSQL",
+      "pgvector",
       "Qdrant",
       "Elasticsearch",
       "OpenSearch",
       "OpenCV",
+      "YOLO",
       "Docker",
       "AWS",
       "Apache Airflow",
-      "Redis"
-    ],
-    "groups": [
-      {
-        "title": "Models & Training",
-        "items": [
-          "LoRA / QLoRA / PEFT",
-          "SFT",
-          "Vision-Language Models",
-          "3D Multimodal LLMs",
-          "MedGemma",
-          "Diffusion Fine-Tuning"
-        ]
-      },
-      {
-        "title": "LLM Systems & Agents",
-        "items": [
-          "LangGraph",
-          "LangChain",
-          "LlamaIndex",
-          "Multi-Agent Systems",
-          "RAG",
-          "Structured Outputs"
-        ]
-      },
-      {
-        "title": "Evaluation & Observability",
-        "items": [
-          "RAGAS",
-          "DeepEval",
-          "LangSmith",
-          "OpenTelemetry",
-          "Guardrails"
-        ]
-      },
-      {
-        "title": "Retrieval & Data",
-        "items": [
-          "pgvector",
-          "Qdrant",
-          "OpenSearch",
-          "Elasticsearch",
-          "BM25 + Rerank",
-          "Apache Airflow"
-        ]
-      },
-      {
-        "title": "Computer Vision & Documents",
-        "items": [
-          "OpenCV",
-          "YOLO Fine-Tuning",
-          "Google Vision OCR",
-          "PDF Parsing"
-        ]
-      },
-      {
-        "title": "Engineering & Cloud",
-        "items": [
-          "Python",
-          "FastAPI",
-          "Docker",
-          "AWS",
-          "GitHub Actions",
-          "Celery",
-          "Redis"
-        ]
-      }
+      "Redis",
+      "Celery",
+      "GitHub Actions"
     ]
   },
   "projects": {

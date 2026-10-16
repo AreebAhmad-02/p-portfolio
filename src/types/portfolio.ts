@@ -65,14 +65,8 @@ export interface About extends SectionCopy {
   stats: Stat[];
 }
 
-export interface SkillGroup {
-  title: string;
-  items: string[];
-}
-
 export interface Skills extends SectionCopy {
   marquee: string[];
-  groups: SkillGroup[];
 }
 
 export interface ProjectLinks {
