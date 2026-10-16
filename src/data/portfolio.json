@@ -109,7 +109,7 @@
         "label": "Peer-reviewed papers"
       },
       {
-        "value": 8,
+        "value": 12,
         "suffix": "+",
         "label": "Production agents shipped"
       }
@@ -288,7 +288,7 @@
       {
         "id": "oracle-agents",
         "title": "Oracle Marketplace Agents",
-        "description": "8+ production-ready ERP and CRM agents built at GoSaaS on Oracle AI Agent Studio, with built-in evaluation and monitoring. Published on the Oracle Marketplace and used by Oracle Fusion consultants to cut manual work.",
+        "description": "12+ production-ready ERP and CRM agents built at GoSaaS on Oracle AI Agent Studio for enterprise clients, with built-in evaluation and monitoring. Published on the Oracle Marketplace and used by Oracle Fusion consultants to cut manual work.",
         "year": "2025",
         "tags": [
           "Oracle AI Agent Studio",
@@ -308,16 +308,17 @@
         "featured": true
       },
       {
-        "id": "nust-bankllama",
-        "title": "NUST BankLlama",
-        "description": "LLaMA 3.2-3B fine-tuned with QLoRA for banking question answering on a self-hosted model, so sensitive data never leaves the building. Uses Qdrant + BM25 hybrid retrieval and guardrails for PII detection and jailbreak prevention.",
+        "id": "heartstamp",
+        "title": "Heartstamp Card Agent",
+        "description": "The core conversational agent behind Heartstamp's AI greeting-card platform: a multi-agent LangGraph system routing across support, card-design and creative agents, with checkpointed memory, structured outputs and image-intent gating. Provider-agnostic routing (OpenAI, Gemini, Grok, Claude) lets each task swap models and run A/B tests without code changes.",
         "year": "2025",
         "tags": [
-          "LLaMA 3.2",
-          "QLoRA",
-          "Qdrant",
-          "BM25",
-          "Guardrails"
+          "LangGraph",
+          "Pydantic",
+          "pgvector",
+          "FastAPI",
+          "Celery",
+          "DeepEval"
         ],
         "palette": [
           "#6fc3c9",
@@ -325,10 +326,55 @@
         ],
         "image": "",
         "links": {
-          "live": "",
+          "live": "https://heartstamp.com/",
           "github": ""
         },
         "featured": true
+      },
+      {
+        "id": "pam-ai",
+        "title": "Pam AI Voice Agent",
+        "description": "Agentic, multi-tool pipelines for a production voice-AI platform that handles inbound calls, texts and service booking for car dealerships, cutting the bad responses that used to need human escalation. Deployed on AWS Lambda via Serverless Framework with CloudWatch monitoring.",
+        "year": "2025",
+        "tags": [
+          "Voice AI",
+          "Tool Calling",
+          "AWS Lambda",
+          "Serverless",
+          "CloudWatch"
+        ],
+        "palette": [
+          "#e0a77d",
+          "#6b3d22"
+        ],
+        "image": "",
+        "links": {
+          "live": "https://pam.ai/",
+          "github": ""
+        },
+        "featured": false
+      },
+      {
+        "id": "part-to-cad-search",
+        "title": "Part-to-CAD Visual Search",
+        "description": "Image-based semantic search for enterprise client Cohu: submit a photo of a part and get the matching CAD drawings, replacing manual lookup. Built alongside computer-vision pipelines (OpenCV, fine-tuned YOLO) that extract data from scanned invoices and industrial P&ID diagrams.",
+        "year": "2025",
+        "tags": [
+          "OpenCV",
+          "YOLO",
+          "Embeddings",
+          "Semantic Search"
+        ],
+        "palette": [
+          "#8f9bd6",
+          "#2e356b"
+        ],
+        "image": "",
+        "links": {
+          "live": "",
+          "github": ""
+        },
+        "featured": false
       },
       {
         "id": "scanned-doc-rag",
@@ -392,7 +438,7 @@
           "Automated extraction from scanned invoices and industrial P&ID diagrams with computer-vision pipelines (OpenCV, fine-tuned YOLO), and delivered image-based semantic search for Cohu matching part images against CAD drawings",
           "Enabled non-technical staff to query fragmented Oracle databases in plain language via knowledge-graph agents, fine-tuned NL2SQL LLMs and hybrid OpenSearch/Elasticsearch retrieval",
           "Eliminated a manual claims-handling workflow for Shark Ninja with an automated pipeline that processes and settles overpayment claims",
-          "Shipped 8+ production ERP and CRM agents with evaluation and monitoring on Oracle AI Agent Studio, published on the Oracle Marketplace"
+          "Shipped 12+ production ERP and CRM agents for enterprise clients on Oracle AI Agent Studio, with built-in evaluation and monitoring, published on the Oracle Marketplace"
         ]
       },
       {
