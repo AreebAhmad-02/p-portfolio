@@ -76,7 +76,7 @@
   "hero": {
     "greeting": "Hi, I'm Areeb,",
     "title": "I build AI systems that *hold up* in production.",
-    "subtitle": "AI engineer and published researcher based in Islamabad. Three and a half years shipping agentic systems, RAG pipelines and document AI for real business workflows. At NUST's MachVis Lab, I build vision-language models for radiology.",
+    "subtitle": "AI engineer and published researcher based in Islamabad. Three and a half years shipping fine-tuned models, agentic systems and RAG pipelines for real business workflows. At NUST's MachVis Lab, I build vision-language models for radiology.",
     "primaryCta": {
       "label": "See my work",
       "target": "projects"
@@ -281,44 +281,43 @@
   },
   "projects": {
     "eyebrow": "Selected work",
-    "title": "Things I've *built & shipped*.",
-    "description": "Production systems and open builds. Each one pushed retrieval, agents or fine-tuning a little further.",
+    "title": "What I build, by *skill*.",
+    "description": "Practical fine-tuning first, then the agents, retrieval and infrastructure that put models to work. Every tile is drawn from production work.",
     "moreLabel": "See more on GitHub",
     "items": [
       {
-        "id": "oracle-agents",
-        "title": "Oracle Marketplace Agents",
-        "description": "12+ production-ready ERP and CRM agents built at GoSaaS on Oracle AI Agent Studio for enterprise clients, with built-in evaluation and monitoring. Published on the Oracle Marketplace and used by Oracle Fusion consultants to cut manual work.",
-        "year": "2025",
+        "id": "skill-finetuning",
+        "title": "Practical Fine-Tuning",
+        "description": "Fine-tuning that ships, not just trains. LoRA/PEFT diffusion models for client work at Codeacme (+20% project delivery), NL2SQL LLMs and YOLO detectors for Oracle enterprise clients at GoSaaS, BGE embeddings for +4.3% retrieval, a QLoRA LLaMA 3.2 for private banking QA, and LoRA-adapted MedGemma and 3D multimodal LLMs in my research.",
+        "year": "Codeacme · GoSaaS · NUST",
         "tags": [
-          "Oracle AI Agent Studio",
-          "LLM Agents",
-          "Evaluation",
-          "Monitoring"
+          "LoRA / QLoRA / PEFT",
+          "SFT",
+          "Diffusion",
+          "NL2SQL",
+          "YOLO"
         ],
         "palette": [
-          "#7db5e8",
-          "#1e4a7a"
+          "#e0a77d",
+          "#6b3d22"
         ],
         "image": "",
         "links": {
-          "live": "",
+          "live": "https://huggingface.co/Areeb-02",
           "github": ""
         },
-        "featured": true
+        "featured": false
       },
       {
-        "id": "heartstamp",
-        "title": "Heartstamp Card Agent",
-        "description": "The core conversational agent behind Heartstamp's AI greeting-card platform: a multi-agent LangGraph system routing across support, card-design and creative agents, with checkpointed memory, structured outputs and image-intent gating. Provider-agnostic routing (OpenAI, Gemini, Grok, Claude) lets each task swap models and run A/B tests without code changes.",
-        "year": "2025",
+        "id": "skill-agents",
+        "title": "Multi-Agent Systems",
+        "description": "Heartstamp's core conversational agent: a LangGraph system routing across support, card-design and creative agents, with checkpointed memory, structured outputs and provider-agnostic model routing. At GoSaaS, 12+ ERP and CRM agents for enterprise clients on the Oracle Marketplace, plus knowledge-graph agents over Oracle databases.",
+        "year": "Heartstamp · GoSaaS",
         "tags": [
           "LangGraph",
           "Pydantic",
-          "pgvector",
-          "FastAPI",
-          "Celery",
-          "DeepEval"
+          "Oracle AI Agent Studio",
+          "OpenRouter"
         ],
         "palette": [
           "#6fc3c9",
@@ -329,23 +328,22 @@
           "live": "https://heartstamp.com/",
           "github": ""
         },
-        "featured": true
+        "featured": false
       },
       {
-        "id": "pam-ai",
-        "title": "Pam AI Voice Agent",
-        "description": "Agentic, multi-tool pipelines for a production voice-AI platform that handles inbound calls, texts and service booking for car dealerships, cutting the bad responses that used to need human escalation. Deployed on AWS Lambda via Serverless Framework with CloudWatch monitoring.",
-        "year": "2025",
+        "id": "skill-voice",
+        "title": "Voice & Conversational AI",
+        "description": "Agentic, multi-tool pipelines for Pam AI's production voice platform, which handles calls, texts and service booking for car dealerships, cutting the bad responses that needed human escalation. At Heartstamp, a multi-turn layer with mid-turn schema swapping, rolling-window context and image-intent gating cut broken conversations.",
+        "year": "Pam AI · Heartstamp",
         "tags": [
           "Voice AI",
           "Tool Calling",
           "AWS Lambda",
-          "Serverless",
           "CloudWatch"
         ],
         "palette": [
-          "#e0a77d",
-          "#6b3d22"
+          "#ab8ba0",
+          "#4f3a4c"
         ],
         "image": "",
         "links": {
@@ -355,14 +353,14 @@
         "featured": false
       },
       {
-        "id": "part-to-cad-search",
-        "title": "Part-to-CAD Visual Search",
-        "description": "Image-based semantic search for enterprise client Cohu: submit a photo of a part and get the matching CAD drawings, replacing manual lookup. Built alongside computer-vision pipelines (OpenCV, fine-tuned YOLO) that extract data from scanned invoices and industrial P&ID diagrams.",
-        "year": "2025",
+        "id": "skill-vision",
+        "title": "Computer Vision & Document AI",
+        "description": "Computer-vision pipelines (OpenCV, fine-tuned YOLO) that extract data from scanned invoices and industrial P&ID diagrams, and image search that matches Cohu's part photos to CAD drawings. Plus OCR-based RAG over scanned tax PDFs with Google Vision and LlamaIndex.",
+        "year": "GoSaaS · Freelance",
         "tags": [
           "OpenCV",
           "YOLO",
-          "Embeddings",
+          "Google Vision OCR",
           "Semantic Search"
         ],
         "palette": [
@@ -371,21 +369,44 @@
         ],
         "image": "",
         "links": {
-          "live": "",
+          "live": "https://gosaas.ai/",
           "github": ""
         },
         "featured": false
       },
       {
-        "id": "scanned-doc-rag",
-        "title": "Scanned-Document RAG",
-        "description": "Replaced manual review of scanned tax PDFs with an end-to-end RAG pipeline: Google Vision OCR, LlamaIndex, fine-tuned BGE-small embeddings (+4.3% retrieval) and hybrid BM25 + dense retrieval.",
-        "year": "2025",
+        "id": "skill-retrieval",
+        "title": "Retrieval & Evaluation",
+        "description": "Hybrid search that holds up under load: PostgreSQL full-text + pgvector HNSW with RRF fusion and re-ranking at Heartstamp, OpenSearch/Elasticsearch at GoSaaS, and an arXiv research RAG. Measured with RAGAS, DeepEval, LangSmith and OpenTelemetry so regressions get caught before release.",
+        "year": "Heartstamp · GoSaaS · Freelance",
         "tags": [
-          "Google Vision OCR",
-          "LlamaIndex",
-          "BGE Embeddings",
-          "BM25"
+          "pgvector",
+          "OpenSearch",
+          "RRF + Rerank",
+          "RAGAS",
+          "DeepEval"
+        ],
+        "palette": [
+          "#7db5e8",
+          "#1e4a7a"
+        ],
+        "image": "",
+        "links": {
+          "live": "https://medium.com/@ahmadareeb3026",
+          "github": ""
+        },
+        "featured": false
+      },
+      {
+        "id": "skill-mlops",
+        "title": "MLOps & Quant ML",
+        "description": "At Tranzbox, feature pipelines over large-scale stock data, benchmarks of classical ML against A3C reinforcement learning, and Airflow on AWS MWAA with CI/CD to S3 and Lambda, leading 4 engineers. At Codeacme, training-to-serverless MLOps that removed always-on compute.",
+        "year": "Tranzbox · Codeacme",
+        "tags": [
+          "Apache Airflow",
+          "AWS MWAA",
+          "Reinforcement Learning",
+          "GitHub Actions"
         ],
         "palette": [
           "#9db17c",
@@ -393,29 +414,7 @@
         ],
         "image": "",
         "links": {
-          "live": "",
-          "github": ""
-        },
-        "featured": false
-      },
-      {
-        "id": "research-paper-rag",
-        "title": "Research-Paper RAG",
-        "description": "A real-time research assistant over arXiv: live ingestion, semantic chunking, fine-tuned embeddings, BM25 + ensemble retrieval and Cohere re-ranking, with retrieval quality tuned against RAGAS evaluation.",
-        "year": "2025",
-        "tags": [
-          "arXiv",
-          "Cohere Rerank",
-          "RAGAS",
-          "Python"
-        ],
-        "palette": [
-          "#ab8ba0",
-          "#4f3a4c"
-        ],
-        "image": "",
-        "links": {
-          "live": "",
+          "live": "https://tranzbox.au/",
           "github": ""
         },
         "featured": false
