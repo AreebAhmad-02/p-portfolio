@@ -1,0 +1,479 @@
+{
+  "meta": {
+    "title": "Areeb Ahmad Chaudhry — AI Engineer & Researcher",
+    "description": "Portfolio of Areeb Ahmad Chaudhry, an AI engineer and published researcher building agentic LLM systems, RAG pipelines and document AI in production, and vision-language models for medical imaging.",
+    "url": "https://areeb-ahmad.vercel.app"
+  },
+  "personal": {
+    "name": "Areeb Ahmad Chaudhry",
+    "firstName": "Areeb",
+    "role": "AI Engineer & Researcher",
+    "location": "Islamabad, Pakistan",
+    "timezone": "GMT+5",
+    "email": "ahmadareeb3026@gmail.com",
+    "avatar": "",
+    "availability": {
+      "available": true,
+      "label": "AI Engineer · Published researcher (IEEE, MICCAI)"
+    },
+    "resumeUrl": "/areeb-ahmad-resume.pdf",
+    "cvUrl": "/areeb-ahmad-chaudhry-cv.pdf"
+  },
+  "nav": [
+    {
+      "label": "About",
+      "id": "about"
+    },
+    {
+      "label": "Research",
+      "id": "research"
+    },
+    {
+      "label": "Work",
+      "id": "projects"
+    },
+    {
+      "label": "Experience",
+      "id": "experience"
+    },
+    {
+      "label": "Contact",
+      "id": "contact"
+    }
+  ],
+  "socials": [
+    {
+      "platform": "googlescholar",
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=gaDnnFwAAAAJ"
+    },
+    {
+      "platform": "github",
+      "label": "GitHub",
+      "url": "https://github.com/AreebAhmad-02"
+    },
+    {
+      "platform": "linkedin",
+      "label": "LinkedIn",
+      "url": "https://linkedin.com/in/areeb-ahmad02"
+    },
+    {
+      "platform": "huggingface",
+      "label": "Hugging Face",
+      "url": "https://huggingface.co/Areeb-02"
+    },
+    {
+      "platform": "medium",
+      "label": "Medium",
+      "url": "https://medium.com/@ahmadareeb3026"
+    },
+    {
+      "platform": "x",
+      "label": "X",
+      "url": "https://x.com/areebahmad_ai"
+    }
+  ],
+  "hero": {
+    "greeting": "Hi, I'm Areeb —",
+    "title": "I build AI systems that *hold up* in production.",
+    "subtitle": "AI engineer and published researcher based in Islamabad. Three and a half years shipping agentic systems, RAG pipelines and document AI for real business workflows — and, at NUST's MachVis Lab, vision-language models for radiology.",
+    "primaryCta": {
+      "label": "See my work",
+      "target": "projects"
+    },
+    "secondaryCta": {
+      "label": "Read my research",
+      "target": "research"
+    }
+  },
+  "about": {
+    "eyebrow": "About me",
+    "title": "An engineer with a *researcher's* habits.",
+    "description": "I ship LLM systems for production teams, and I study how multimodal models can be grounded, efficient and trustworthy.",
+    "paragraphs": [
+      "For about three and a half years I've been delivering end-to-end AI systems — multi-agent LangGraph backends, hybrid retrieval, evaluation pipelines and computer-vision document extraction — for teams in the US, Australia and Pakistan, from early-stage startups to Oracle enterprise clients.",
+      "In parallel, I do research on multimodal and vision-language models for 2D and 3D medical imaging. At the MachVis Lab at NUST I co-developed Radixpert, an anatomy-guided model for radiology report generation published at IEEE, and FeLoRA16-SPP, a parameter-efficient 3D multimodal LLM for the MICCAI 2025 FLARE challenge.",
+      "Both sides feed each other: research taught me to measure before I claim, and production taught me what actually survives contact with real users. I write about applied AI on Medium and publish open models and datasets on Hugging Face."
+    ],
+    "currently": "AI Engineer at GoSaaS",
+    "signature": "Areeb",
+    "stats": [
+      {
+        "value": 3,
+        "suffix": "+",
+        "label": "Years shipping AI"
+      },
+      {
+        "value": 2,
+        "suffix": "",
+        "label": "Peer-reviewed papers"
+      },
+      {
+        "value": 8,
+        "suffix": "+",
+        "label": "Production agents shipped"
+      }
+    ]
+  },
+  "research": {
+    "eyebrow": "Research",
+    "title": "Making medical AI *grounded* and efficient.",
+    "description": "My research is on multimodal and vision-language models for 2D and 3D medical imaging — teaching models to look at the right anatomy, and adapting large foundation models without retraining them.",
+    "interests": [
+      "Vision-language models for 2D & 3D medical imaging",
+      "Anatomy- and knowledge-grounded generation",
+      "Parameter-efficient adaptation of foundation models",
+      "Reliable RAG & agentic LLM systems and their evaluation"
+    ],
+    "highlightAuthor": "A. A. Chaudhry",
+    "publications": [
+      {
+        "id": "radixpert",
+        "title": "Radixpert: A Multimodal Approach to Medical Imaging",
+        "authors": [
+          "M. A. R. Farooqi",
+          "A. A. Chaudhry",
+          "M. Y. Ghaffar",
+          "N. Perwaiz",
+          "H. M. Kiani"
+        ],
+        "venue": "IEEE · Frontiers of Information Technology (FIT)",
+        "year": "2025",
+        "summary": "A dual-branch vision-language model that fuses frozen BioViL image features with anatomical segmentation masks from a frozen U-Net to condition MedGemma-4B for chest X-ray report generation. LoRA trains ~1.8% of parameters on 16,000 PadChest studies; explicit anatomical grounding reduced laterality errors.",
+        "result": {
+          "value": "0.804",
+          "label": "RadCliQ — on par with the strongest baseline (Reg2RG, 0.810)"
+        },
+        "links": [
+          {
+            "label": "IEEE Xplore",
+            "url": "https://ieeexplore.ieee.org/abstract/document/11333658"
+          }
+        ]
+      },
+      {
+        "id": "felora16-spp",
+        "title": "FeLoRA16-SPP: Parameter-Efficient Fine-Tuning of 3D Multimodal LLMs for Radiology Report Generation and Visual Question Answering",
+        "authors": [
+          "M. Javed",
+          "A. A. Chaudhry",
+          "N. Perwaiz",
+          "U. Athar",
+          "A. Salahudeen",
+          "M. M. Fraz"
+        ],
+        "venue": "MICCAI 2025 · FLARE Challenge (Task 5)",
+        "year": "2025",
+        "summary": "Adapts the M3D-LaMed 3D multimodal LLM to report generation and VQA on 3D CT scans, combining LoRA fine-tuning with a spatial pooling projector and a frozen vision encoder — about 8% of 4.07B parameters trainable. Top scores on 9 of 18 organ systems.",
+        "result": {
+          "value": "0.431",
+          "label": "Average GREEN score — up to 12% above PHI3, 4% above Med3DVLM"
+        },
+        "links": [
+          {
+            "label": "OpenReview",
+            "url": "https://openreview.net/forum?id=cFrCa5Rvk6"
+          }
+        ]
+      }
+    ],
+    "position": {
+      "lab": "MachVis Lab",
+      "institution": "SEECS, NUST, Islamabad",
+      "role": "Research Assistant",
+      "period": "2024 — Sep 2025",
+      "supervisor": "Dr. Nazia Perwaiz",
+      "description": "Undergraduate researcher during my final-year project (Radixpert, graded A in both semesters), then Research Assistant from June to September 2025 working on 3D multimodal LLMs for CT."
+    },
+    "scholarLabel": "Google Scholar",
+    "cvLabel": "Academic CV"
+  },
+  "skills": {
+    "eyebrow": "Toolbox",
+    "title": "The stack I *reach for*.",
+    "description": "From fine-tuning multimodal models to the retrieval, agents and infrastructure that put them in front of real users.",
+    "marquee": [
+      "Python",
+      "PyTorch",
+      "Hugging Face",
+      "LangGraph",
+      "LangChain",
+      "OpenAI",
+      "Claude",
+      "Gemini",
+      "FastAPI",
+      "PostgreSQL",
+      "Qdrant",
+      "Elasticsearch",
+      "OpenSearch",
+      "OpenCV",
+      "Docker",
+      "AWS",
+      "Apache Airflow",
+      "Redis"
+    ],
+    "groups": [
+      {
+        "title": "Models & Training",
+        "items": [
+          "LoRA / QLoRA / PEFT",
+          "SFT",
+          "Vision-Language Models",
+          "3D Multimodal LLMs",
+          "MedGemma",
+          "Diffusion Fine-Tuning"
+        ]
+      },
+      {
+        "title": "LLM Systems & Agents",
+        "items": [
+          "LangGraph",
+          "LangChain",
+          "LlamaIndex",
+          "Multi-Agent Systems",
+          "RAG",
+          "Structured Outputs"
+        ]
+      },
+      {
+        "title": "Evaluation & Observability",
+        "items": [
+          "RAGAS",
+          "DeepEval",
+          "LangSmith",
+          "OpenTelemetry",
+          "Guardrails"
+        ]
+      },
+      {
+        "title": "Retrieval & Data",
+        "items": [
+          "pgvector",
+          "Qdrant",
+          "OpenSearch",
+          "Elasticsearch",
+          "BM25 + Rerank",
+          "Apache Airflow"
+        ]
+      },
+      {
+        "title": "Computer Vision & Documents",
+        "items": [
+          "OpenCV",
+          "YOLO Fine-Tuning",
+          "Google Vision OCR",
+          "PDF Parsing"
+        ]
+      },
+      {
+        "title": "Engineering & Cloud",
+        "items": [
+          "Python",
+          "FastAPI",
+          "Docker",
+          "AWS",
+          "GitHub Actions",
+          "Celery",
+          "Redis"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Selected work",
+    "title": "Things I've *built & shipped*.",
+    "description": "Production systems and open builds — each one pushed retrieval, agents or fine-tuning a little further.",
+    "moreLabel": "See more on GitHub",
+    "items": [
+      {
+        "id": "oracle-agents",
+        "title": "Oracle Marketplace Agents",
+        "description": "8+ production-ready ERP and CRM agents built at GoSaaS on Oracle AI Agent Studio, with built-in evaluation and monitoring — published on the Oracle Marketplace and used by Oracle Fusion consultants to cut manual work.",
+        "year": "2025",
+        "tags": [
+          "Oracle AI Agent Studio",
+          "LLM Agents",
+          "Evaluation",
+          "Monitoring"
+        ],
+        "palette": [
+          "#7db5e8",
+          "#1e4a7a"
+        ],
+        "image": "",
+        "links": {
+          "live": "",
+          "github": ""
+        },
+        "featured": true
+      },
+      {
+        "id": "nust-bankllama",
+        "title": "NUST BankLlama",
+        "description": "LLaMA 3.2-3B fine-tuned with QLoRA for banking question answering on a self-hosted model, so sensitive data never leaves the building — with Qdrant + BM25 hybrid retrieval and guardrails for PII detection and jailbreak prevention.",
+        "year": "2025",
+        "tags": [
+          "LLaMA 3.2",
+          "QLoRA",
+          "Qdrant",
+          "BM25",
+          "Guardrails"
+        ],
+        "palette": [
+          "#6fc3c9",
+          "#1d4b50"
+        ],
+        "image": "",
+        "links": {
+          "live": "",
+          "github": ""
+        },
+        "featured": true
+      },
+      {
+        "id": "scanned-doc-rag",
+        "title": "Scanned-Document RAG",
+        "description": "Replaced manual review of scanned tax PDFs with an end-to-end RAG pipeline: Google Vision OCR, LlamaIndex, fine-tuned BGE-small embeddings (+4.3% retrieval) and hybrid BM25 + dense retrieval.",
+        "year": "2025",
+        "tags": [
+          "Google Vision OCR",
+          "LlamaIndex",
+          "BGE Embeddings",
+          "BM25"
+        ],
+        "palette": [
+          "#9db17c",
+          "#3f5233"
+        ],
+        "image": "",
+        "links": {
+          "live": "",
+          "github": ""
+        },
+        "featured": false
+      },
+      {
+        "id": "research-paper-rag",
+        "title": "Research-Paper RAG",
+        "description": "A real-time research assistant over arXiv: live ingestion, semantic chunking, fine-tuned embeddings, BM25 + ensemble retrieval and Cohere re-ranking — with retrieval quality tuned against RAGAS evaluation.",
+        "year": "2025",
+        "tags": [
+          "arXiv",
+          "Cohere Rerank",
+          "RAGAS",
+          "Python"
+        ],
+        "palette": [
+          "#ab8ba0",
+          "#4f3a4c"
+        ],
+        "image": "",
+        "links": {
+          "live": "",
+          "github": ""
+        },
+        "featured": false
+      }
+    ]
+  },
+  "experience": {
+    "eyebrow": "Career",
+    "title": "Where I've *worked*.",
+    "description": "Teams that trusted me with real problems, and what we shipped together.",
+    "items": [
+      {
+        "role": "AI Engineer",
+        "company": "GoSaaS",
+        "url": "https://gosaas.ai/",
+        "location": "Remote",
+        "period": "Jun 2025 — Present",
+        "description": "Oracle systems integrator delivering PLM, SCM and ERP solutions to high-tech manufacturing and life-sciences clients.",
+        "highlights": [
+          "Automated extraction from scanned invoices and industrial P&ID diagrams with computer-vision pipelines (OpenCV, fine-tuned YOLO), and delivered image-based semantic search for Cohu matching part images against CAD drawings",
+          "Enabled non-technical staff to query fragmented Oracle databases in plain language via knowledge-graph agents, fine-tuned NL2SQL LLMs and hybrid OpenSearch/Elasticsearch retrieval",
+          "Eliminated a manual claims-handling workflow for Shark Ninja with an automated pipeline that processes and settles overpayment claims",
+          "Shipped 8+ production ERP and CRM agents with evaluation and monitoring on Oracle AI Agent Studio, published on the Oracle Marketplace"
+        ]
+      },
+      {
+        "role": "Founding AI Engineer, GTM",
+        "company": "Heartstamp",
+        "url": "https://heartstamp.com/",
+        "location": "Las Vegas, USA · Remote",
+        "period": "Sep 2025 — Jul 2026",
+        "description": "AI greeting-card platform generating personalised digital 3D and print-on-demand cards.",
+        "highlights": [
+          "Architected the core conversational agent: a multi-agent LangGraph system with checkpointed memory routing across support, card-design and creative agents, with Pydantic structured outputs and image-intent gating",
+          "Built the agent tool layer on provider-agnostic routing (OpenAI, Gemini, Grok, Claude) with Flagsmith-gated rollout, enabling per-task model swaps and A/B tests without code changes",
+          "Built hybrid card search (PostgreSQL full-text, pgvector HNSW, RRF fusion, re-ranking) and the DeepEval / LangSmith / OpenTelemetry pipeline that caught regressions before release"
+        ]
+      },
+      {
+        "role": "AI Engineer (Contract)",
+        "company": "Codeacme",
+        "url": "https://codeacme.com/",
+        "location": "Islamabad, Pakistan · Remote",
+        "period": "Mar 2025 — Sep 2025",
+        "description": "AI solutions company delivering production ML systems for global clients.",
+        "highlights": [
+          "Raised project delivery rate by 20% by training and deploying LoRA/PEFT fine-tuned diffusion models",
+          "Built end-to-end MLOps from training through serverless deployment, removing always-on compute"
+        ]
+      },
+      {
+        "role": "AI Support Engineer (Contract)",
+        "company": "Pam AI",
+        "url": "https://pam.ai/",
+        "location": "Virginia, USA · Remote",
+        "period": "Dec 2024 — May 2025",
+        "description": "Voice-AI platform for car dealerships, automating inbound calls, texts and service booking.",
+        "highlights": [
+          "Reduced hallucinations in a production voice-AI system with agentic, multi-tool pipelines, cutting responses that needed human escalation",
+          "Deployed AWS Lambda functions via Serverless Framework with CloudWatch monitoring"
+        ]
+      },
+      {
+        "role": "Freelance AI Engineer",
+        "company": "Independent",
+        "url": "",
+        "location": "Remote",
+        "period": "Oct 2024 — Mar 2025",
+        "description": "End-to-end RAG and fine-tuning builds for document-heavy and privacy-sensitive clients.",
+        "highlights": [
+          "Scanned tax-PDF RAG with fine-tuned BGE embeddings (+4.3% retrieval), a real-time arXiv research pipeline, and NUST BankLlama — a self-hosted QLoRA model with PII and jailbreak guardrails"
+        ]
+      },
+      {
+        "role": "Data Scientist (Quant)",
+        "company": "Tranzbox",
+        "url": "https://tranzbox.au/",
+        "location": "Melbourne, Australia · Remote",
+        "period": "Jun 2023 — Sep 2024",
+        "description": "Fintech company building ML-powered investment and trading systems.",
+        "highlights": [
+          "Benchmarked classical ML (SVM, tree ensembles) and reinforcement learning (A3C) for market prediction on large-scale stock data",
+          "Automated training and deployment with Apache Airflow ETL on AWS MWAA and GitHub Actions CI/CD to S3 and Lambda",
+          "Led a team of 4 engineers delivering ML platform module integration"
+        ]
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Kind words",
+    "title": "What people *say*.",
+    "description": "",
+    "items": []
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Hiring or supervising? Let's *talk*.",
+    "description": "I'm open to AI engineering roles and to research positions and collaborations in multimodal and medical AI. Whether you're hiring or supervising, my inbox is open.",
+    "ctaLabel": "Say hello",
+    "note": "Working remotely worldwide",
+    "resumeLabel": "Resume",
+    "cvLabel": "Academic CV"
+  },
+  "footer": {
+    "note": "Designed & built by Areeb Ahmad Chaudhry — Next.js, Three.js and a lot of chai."
+  }
+}
